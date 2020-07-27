@@ -2,4 +2,10 @@ header{
   background-color: $header-back-color;
   color: $header-color;
   padding: $section-padding;
+
+  nav{
+    a{
+      color: $header-color;
+    }
+  }
 }

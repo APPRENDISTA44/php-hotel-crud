@@ -1,5 +1,4 @@
 <?php
-include __DIR__ . '/env.php';
 include __DIR__ . '/database.php';
 
 $sql = "SELECT * FROM `stanze`";

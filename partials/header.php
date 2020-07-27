@@ -9,4 +9,7 @@
 
     <header>
       <h1>BOOLEAN HOTEL</h1>
+      <nav>
+        <a href="<?php echo $base_path; ?>">Torna alla homepage</a>
+      </nav>
     </header>
