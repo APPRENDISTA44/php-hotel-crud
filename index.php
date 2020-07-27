@@ -1,15 +1,6 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Hotel</title>
-    <link rel="stylesheet" href="dist/app.css">
-  </head>
-  <body>
-
-    <header>
-      <h1>BOOLEAN HOTEL</h1>
-    </header>
+<?php include __DIR__ . '/server.php'; ?>
+<?php include __DIR__ . '/partials/header.php';
+?>
 
     <main>
       <table class="room-list">
@@ -22,12 +13,14 @@
         </thead>
 
         <tbody>
+          <?php foreach ($rooms as $room) {?>
           <tr>
-            <td>5</td>
-            <td>555</td>
-            <td>50</td>
-
+            <td> <?php echo $room['id']; ?></td>
+            <td> <?php echo $room['room_number']; ?></td>
+            <td> <?php echo $room['floor']; ?></td>
           </tr>
+        <?php }?>
+
         </tbody>
       </table>
     </main>
