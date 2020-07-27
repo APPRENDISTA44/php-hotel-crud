@@ -1,0 +1,23 @@
+/* reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+}
+
+main {
+  padding: 10px;
+}
+
+main .room-list td {
+  border: 1px solid black;
+  padding: 5px 10px;
+}
+
